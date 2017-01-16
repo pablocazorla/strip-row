@@ -1,0 +1,56 @@
+body{
+	font:12px/1.3em sans-serif;
+}
+.container{
+	margin: 40px auto;
+	width: 92%;
+	max-width: 1200px;
+}
+
+
+/*************/
+.col-1,
+.col-2{
+	float:left;
+	width: 50%;
+	height: 400px;
+	position: relative;
+}
+
+.img-container{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.img-container img{
+	width: 100%;
+	height: 400px;
+	display: block;
+}
+
+.text-box-red{
+	position: absolute;
+	bottom: 40px;
+	left:-20px;
+	background-color: red;
+	color:#FFF;
+	padding: 15px;
+	font-size: 11px;
+	width:200px;
+}
+.text-box{
+	padding: 35px 40px;
+}
+h2{
+	font-size: 25px;
+	line-height: 1.3em;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+p{
+	margin-bottom: 15px;
+}
+a{
+	color: red;
+	font-weight: bold;
+}

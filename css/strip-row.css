@@ -1,0 +1,99 @@
+/* strip-row */
+.strip-row{
+	position: relative;
+	padding-bottom: 30px;
+}
+.strip-wrap{
+	margin:0 auto;
+	overflow: hidden;
+}
+.strip-slider{
+	white-space: nowrap;
+	font-size: 0;
+	line-height: 0;
+	position: relative;
+	left: 0;
+	transition: left 1s;
+}
+.frame{
+	width: 200px;
+	padding: 0 5px;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.3em;
+}
+.frame img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************/
+.pagination-strip-row{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	font-size: 0;
+	padding-top: 11px;
+	text-align: center;
+}
+.pagination-strip-row span{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	line-height: 8px;
+	background-color: #DDD;
+	border-radius: 52%;
+	margin: 0 4px;
+	cursor:pointer;
+}
+.pagination-strip-row span.active{
+	background-color: #29F;
+	cursor: default;
+}
+.arrow-strip-row{
+	position: absolute;
+	top:50%;
+	z-index:15;
+	display: block;
+	background: blue;
+	color:#FFF;
+	font-size: 20px;
+	width: 40px;
+
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: -20px;
+	cursor:pointer;
+}
+.arrow-strip-row-prev{
+		left: 0;
+	}
+.arrow-strip-row-next{
+	right: 0;
+}
